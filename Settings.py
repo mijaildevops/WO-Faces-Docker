@@ -3,8 +3,7 @@ import pymysql
 
 # DB Settings
 StringDB = [
-    #"128.199.15.192", # Server
-    "192.168.100.50", # Server
+    "128.199.15.192", # Server
     "WO.Test", # User
     "DB.Learing", # Pass
     "WO-Faces", # DB
@@ -19,7 +18,7 @@ connection = pymysql.connect(host=StringDB[0],
                     cursorclass=pymysql.cursors.DictCursor)
 
 # Server
-server = '192.168.100.3'
+server = '128.199.15.192'
 
 # Cognitive-Services
 SUBSCRIPTION_KEY = 'ad421b0ac53b4d7e9d38cc94f9877fd9'

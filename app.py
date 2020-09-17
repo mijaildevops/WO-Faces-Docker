@@ -201,4 +201,4 @@ def not_found(error=None):
     return response
 
 if __name__ == "__main__":
-    app.run(port = 5080, debug = True, host=server) # PC Main
+    app.run(port = 3950, debug = True, host=server) # PC Main
