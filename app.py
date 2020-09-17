@@ -20,6 +20,9 @@ Conexion = connection
 # Request
 import http.client, urllib.request, urllib.parse, urllib.error, base64
 
+# Cors
+from flask_cors import CORS
+
 # 
 from Settings import SUBSCRIPTION_KEY, BASE_URL
 CF.BaseUrl.set(BASE_URL)
@@ -29,6 +32,7 @@ CF.Key.set(SUBSCRIPTION_KEY)
 
 #MAIN 
 app = Flask(__name__)
+cors = CORS(app)
 
 #////////////////////////////////////////////////////////////////////////////////   
 # Web Services For create "Users"  
