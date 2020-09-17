@@ -1,0 +1,4 @@
+Flask-Cors==3.0.9
+Flask==1.1.2
+uuid==1.30
+PyMySQL==0.10.1
